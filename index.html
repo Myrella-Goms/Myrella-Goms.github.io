@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portifólio - Myrella Gomes</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="color"></div>
+    <header class="header">
+      <nav class="nav-bar">
+        <ul class="nav-list">
+          <a href="#about-me" target="_self">Sobre mim</a>
+          <a href="#education" target="_self">Formação</a>
+          <a href="#portfolio" target="_self">Portifólio</a>
+          <a href="#contact" target="_self">Contato</a>
+        </ul>
+      </nav>
+    </header>
+    <section class="about-me" id="about-me">
+      <div class="about-me-container">
+        <h1 class="about-me-h1">Bem-vindo(a) ao meu portfólio!</h1>
+        <p class="about-me-p">
+          Meu nome é Myrella Gomes, sou desenvolvedora full-stack, com
+          experiência em projetos com Node.js, TypeScript, React e .NET. Estou
+          animada para compartilhar meus projetos e experiências.Navegue pelas
+          seções para saber mais sobre mim, minha formação, meu portfólio e como
+          entrar em contato.
+        </p>
+        <h1>Tecnologias que trabalho:</h1>
+        <ul class="stack-list">
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg"
+            height="50"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+            height="50"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg"
+            height="50"
+          />
+
+          <img
+            src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"
+            height="50"
+          />
+        </ul>
+      </div>
+    </section>
+    <section class="education" id="education">
+      <h1 class="education-h1">Formação</h1>
+      <p class="education-p">
+        Bacharela em Agronomia - Universidade Federal Rural de Pernambuco
+        (UFRPE)
+        <br />
+        Cursando Tecnologia em Ciência de Dados - Uninter (2025 - 2027)
+      </p>
+    </section>
+    <section class="portfolio"  id="portfolio">
+      <h1 class="portfolio-h1">Portfólio</h1>
+      <p class="portfolio-p">
+        Confira alguns dos meus projetos no meu
+        <a
+          href="https://github.com/Myrella-Goms?tab=repositories"
+          target="_blank"
+          >GitHub:</a
+        >.
+      </p>
+      <ul class="projects-list">
+        <p class="projects-links"><a href="https://github.com/Myrella-Goms/Chronos-Pomodoro"
+          >Chronos-Pomodoro</a
+        ></p>
+        <p class="projects-links"><a href="https://github.com/Myrella-Goms/decola-tech-API-desafio-2025"
+          >Gerenciamento de Agências</a
+        ></p>
+      </ul>
+    </section>
+    <section class="contact" id="contact">
+        <h1 class="contact-h1">Contato</h1>
+        <p class="contact-p">
+            Estou aberta a novas oportunidades e colaborações! Sinta-se à vontade
+            para entrar em contato comigo</p>
+
+        <form class="contact-form" action="" method="post">
+            <label for="name">Nome</label>
+            <input type="text" id="name" placeholder="Digite seu nome" name="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" name="email" />
+
+            <label for="message">Mensagem</label>
+            <textarea id="message" placeholder="Digite sua mensagem" name="message"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
